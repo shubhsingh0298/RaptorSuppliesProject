@@ -23,7 +23,7 @@ public class LoginFunctionality {
         usernameTextField.sendKeys("shubsingh0298@gmail.com");
         
         WebElement passwordTextField = driver.findElement(By.id("pass"));
-        passwordTextField.sendKeys("Abc@012345");
+        passwordTextField.sendKeys("Abc@12345");
       
         Thread.sleep(2000);
         
